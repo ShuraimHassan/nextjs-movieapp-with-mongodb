@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Header from '../components/header'
 import clientPromise from '../lib/mongodb'
 
 
@@ -9,7 +10,7 @@ export default function Home({ isConnected }) {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Header/>
       <main>
         <h1 className="title">
           Welcome to <a href="https://nextjs.org">Next.js with MongoDB!</a>
